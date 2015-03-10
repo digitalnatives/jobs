@@ -68,4 +68,16 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 50px;
+  }
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+h2, .h2 {
+  font-size: 25px;
 }
