@@ -72,6 +72,19 @@ h2, .h2 {
 }
 
 .small-image {
-  max-width: 25px;
-  max-height: 25px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.job-list {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.job-list .media {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.job-list .media:last-child {
+  border: 0;
 }
