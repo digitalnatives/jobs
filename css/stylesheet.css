@@ -88,3 +88,9 @@ h2, .h2 {
 .job-list .media:last-child {
   border: 0;
 }
+
+.social a {
+  cursor: pointer;
+  color: grey;
+  font-size: 20px;
+}
