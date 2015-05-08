@@ -1,0 +1,28 @@
+title: "Jobs - Digital Natives"
+url: "http://jobs.digitalnatives.hu"
+homepage: "http://digitalnatives.hu"
+ga_code: "UA-57245206-3"
+author:
+    name: "Digital Natives"
+    logo: dina-logo.png
+    hello_hired: digitalnatives
+markdown: kramdown
+permalink: /:title
+timezone: Europe/Budapest
+
+gems:
+  - jekyll-sitemap
+
+sitemap:
+  exclude:
+    - "/404.html"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      employment_type: "Full-Time"
+      location: "Budapest, Hungary"

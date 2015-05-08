@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    {% include meta.html %}
+    <title>
+      {% if page.title %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
+    {% include ga.html %}
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            {% for post in site.posts %}
+              <li role="presentation" class="{% if post.url == page.url %}active{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+        <h3 class="text-muted"><a href="/">{{ site.author.name }}</a></h3>
+      </div>
+
+      <div class="jumbotron">
+        {% include sharing_links.html align="right" %}
+
+        {{ content }}
+      </div>
+
+      <footer class="footer">
+        <p class="text-center">
+          &copy;
+          <a href="{{ site.homepage }}">{{ site.author.name }}</a>
+          2015
+        </p>
+      </footer>
+    </div> <!-- /container -->
+  </body>
+</html>
