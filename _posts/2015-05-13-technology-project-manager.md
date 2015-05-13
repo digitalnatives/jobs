@@ -21,7 +21,7 @@ meta_description: "We are looking for enthusiastic and experienced Technology Pr
     <li>Experience in delivering web, mobile complex projects</li>
     <li>Understanding of the full development lifecycle</li>
     <li>Effective management of scope, cost, timescales and quality</li>
-    <li>Efficient communicating with a wide range of project stakeholders</li>
+    <li>Efficient communication with a wide range of project stakeholders</li>
     <li>Perfect presentation and visualization skills</li>
     <li>Advanced negotiation and conflict management capabilities</li>
     <li>Excellent written and spoken English</li>
