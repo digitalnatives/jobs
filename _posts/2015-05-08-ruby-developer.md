@@ -41,12 +41,7 @@ meta_description: "We are looking for enthusiastic Ruby developers in Hungary. E
   <h2>We offer</h2>
   <ul>
     <li>Creating cutting edge technology in agile team</li>
-    <li>Innovative projects, creative work</li>
-    <li>Inspiring people and environment</li>
-    <li>Support improving your skills: Dedicated time and yearly budget for learning and self improvement</li>
-    <li>English lessons</li>
-    <li>Pleasant working environment</li>
-    <li>Breakfast, table-football and massage</li>
+    {% include basic_offers.html %}
   </ul>
 
   <p>Very excited to meet anyone who is interested in jumping on board - lets get coffee or tea to chat!</p>
