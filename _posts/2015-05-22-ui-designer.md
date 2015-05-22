@@ -1,6 +1,6 @@
 ---
 title: "UI Designer"
-logo: uI_logo.png
+logo: ui_logo.png
 hello_hired: 381
 meta_description: "We are planning to strengthen our professional team with enthusiastic and experienced UI Designer in Hungary."
 ---
