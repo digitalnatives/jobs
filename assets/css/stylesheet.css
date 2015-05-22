@@ -28,6 +28,9 @@ a:hover {
 .media:hover {
   background: rgba(162, 109, 48, 0.3);
 }
+.media:hover a {
+  text-decoration: none;
+}
 .media-body {
   padding-top: 15px;
 }
