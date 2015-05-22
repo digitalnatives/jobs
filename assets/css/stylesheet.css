@@ -6,7 +6,7 @@ body {
   line-height: 1.7;
 }
 
-/*Feri modositasai*/
+/* custom modifications  */
 .header {
   text-align: center;
 }
@@ -17,9 +17,11 @@ a:hover {
   color: #000;
   text-decoration: underline;
 }
-
 .header a {
   margin-top: 20px;
+}
+.jumbotron {
+  padding-top: 0;
 }
 .media {
   margin: 0;
@@ -37,6 +39,7 @@ a:hover {
 .media-left {
   padding-top: 15px;
   padding-left: 15px;
+  padding-right: 30px;
 }
 .media-right {
   padding-right: 15px;
@@ -45,9 +48,7 @@ a:hover {
   margin: 0 auto;
   width: 80px;
 }
-/*.media {
-  margin-top: 20px;
-}*/
+
 
 /*---------*/
 
