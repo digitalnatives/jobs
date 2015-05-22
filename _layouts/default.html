@@ -15,23 +15,17 @@
 
     <div class="container">
       <div class="header">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            {% for post in site.posts %}
-              <li role="presentation" class="{% if post.url == page.url %}active{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-        <h3 class="text-muted"><a href="/">{{ site.author.name }}</a></h3>
+        <a href="{{ site.homepage }}"><img src="/assets/images/{{ site.author.logo }}" alt="{{ site.author.name }} logo"/></a>
+        <h1><a href="{{ site.homepage }}">{{ site.author.name }}</a></h1>
+        <p class="lead">We. Are. Hiring.</p>
       </div>
 
       <div class="jumbotron">
-        {% include sharing_links.html align="right" %}
-
         {{ content }}
       </div>
 
       <footer class="footer">
+        {% include sharing_links.html%}
         <p class="text-center">
           &copy;
           <a href="{{ site.homepage }}">{{ site.author.name }}</a>

@@ -3,33 +3,28 @@ layout: default
 meta_description: "We are looking for enthusiastic Ruby and Frontend developers. Experienced senior and talented junior professionals are also welcome."
 ---
 
-<p><a href="{{ site.homepage }}"><img src="/assets/images/thumbs/{{ site.author.logo }}" alt="{{ site.author.name }} logo"/></a></p>
-<h1><a href="{{ site.homepage }}">{{ site.author.name }}</a></h1>
-<p class="lead">We make it happen</p>
-
 <h2>Open positions:</h2>
 
 <div class="job-list text-left">
 
   {% for post in site.posts %}
     <div class="media">
-      <div class="media-left">
-        <a href="{{ post.url }}">
+      <a href="{{ post.url }}">
+        <div class="media-left">
           <img class="small-image media-object" src="/assets/images/{{post.logo}}" alt="{{ post.title }} Logo" />
-        </a>
-      </div>
-      <div class="media-body">
-        <h4 class="media-heading">
-          <a href="{{ post.url }}">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">
             <b>{{ post.title }}</b>
-          </a>
-        </h4>
-        <p>{{ post.location }}</p>
-      </div>
-      <div class="media-right text-nowrap">
-        <p>{{ post.employment_type }}</p>
-      </div>
+          </h4>
+          <p>{{ post.location }}</p>
+        </div>
+        <div class="media-right text-nowrap">
+          <p>{{ post.employment_type }}</p>
+        </div>
+      </a>
     </div>
+
   {% endfor %}
 
 </div>

@@ -2,9 +2,51 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #2b3e50;
+  /*background: #2b3e50;*/
   line-height: 1.7;
 }
+
+/*Feri modositasai*/
+.header {
+  text-align: center;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.header a {
+  margin-top: 20px;
+}
+.media {
+  margin: 0;
+  transition: background .3s ease-out, color .3s ease-out;
+}
+.media:hover {
+  background: rgba(162, 109, 48, 0.3);
+}
+.media-body {
+  padding-top: 15px;
+}
+.media-left {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.media-right {
+  padding-right: 15px;
+}
+.social-container {
+  margin: 0 auto;
+  width: 80px;
+}
+/*.media {
+  margin-top: 20px;
+}*/
+
+/*---------*/
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -61,6 +103,8 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .jumbotron h1, .jumbotron .h1 {
@@ -101,4 +145,18 @@ h2, .h2 {
   cursor: pointer;
   color: grey;
   font-size: 20px;
+}
+
+/*responsive - phone*/
+@media screen and (max-width: 768px) {
+  .container,
+  .jumbotron {
+    padding: 0;
+  }
+  .jumbotron {
+    border: none;
+  }
+  .media-right {
+    padding-top: 15px;
+  }
 }
