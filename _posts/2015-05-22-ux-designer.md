@@ -24,7 +24,7 @@ meta_description: "We are planning to strengthen our professional team with enth
 
   <h2>Requirements</h2>
   <ul>
-    <li>Good knowledge of mockup and prototyping tools (Axure, keynote, pixate, marvel/invision, framer.js)</li>
+    <li>Good knowledge of mockup and prototyping tools (Axure, Keynote, Pixate, Marvel/Invision, Framer.js etc.)</li>
     <li>Knowledge of Human Centered Design and Interaction Design</li>
     <li>Analyze and solve design tasks independently and pro-actively</li>
     <li>Able to meet deadlines, work within an international environment, exchange knowledge with colleagues, and be up-to-date with new trends</li>
