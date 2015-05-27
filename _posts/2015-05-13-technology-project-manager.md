@@ -44,5 +44,4 @@ meta_description: "We are looking for enthusiastic and experienced Technology Pr
   <p>Very excited to meet anyone who is interested in jumping on board - lets get coffee or tea to chat!</p>
 </div>
 
-{% include sharing_links.html align="left" %}
 {% include hello_hired.html param=page.hello_hired %}
