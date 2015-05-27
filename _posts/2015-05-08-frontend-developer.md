@@ -9,8 +9,8 @@ meta_description: "We are looking for enthusiastic Frontend developers in Hungar
 {% include post_header.html %}
 
 <div class="text-left">
-  <p>We are planning to strengthen our <b>professional team</b> with enthusiastic and experienced Frontend Developers in Hungary.</p>
-  <p>We are also looking for graduate <b>students / junior</b> developers who are eager to gain experiences in fields below.</p>
+    <p>We are planning to strengthen our <strong>professional team</strong> with enthusiastic and experienced Frontend Developers in Hungary.</p>
+    <p>We are also looking for graduate <strong>students / junior</strong> developers who are eager to gain experiences in fields below.</p>
 
   <h2>The mission of the job</h2>
   <ul>
@@ -51,5 +51,4 @@ meta_description: "We are looking for enthusiastic Frontend developers in Hungar
   <p>Very excited to meet anyone who is interested in jumping on board - lets get coffee or tea to chat!</p>
 </div>
 
-{% include sharing_links.html align="left" %}
 {% include hello_hired.html param=page.hello_hired %}

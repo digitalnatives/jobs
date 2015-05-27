@@ -9,23 +9,22 @@ meta_description: "We are looking for enthusiastic Digital Marketer in Hungary. 
 {% include post_header.html %}
 
 <div class="text-left">
-  <p>
-    Digital Natives is a <b>digital service provider agency with its own product</b>,<br/> called <a href="http://nostromo.io" target="_blank">Nostromo.io</a>
-  </p>
+  <h2>
+    Digital Natives is a digital service provider agency with its own product, called <a href="http://nostromo.io" target="_blank"><strong>Nostromo.io</strong></a>
+  </h2>
 
   <ul>
     <li>At Digital Natives we help our clients to <b>build their product with<br/> programming and design</b> experts.</li>
     <li>Nostromo is a Trello-like task manager that helps to make <b>data driven decisions in product management</b>.</li>
   </ul>
-
   <p>We believe that Service + Product are stronger together, so we'd do the communication together.</p>
 
   <h2>The ideal new team member will have three major roles:</h2>
-  <ol>
+  <ul>
     <li>help to translate the service/product and team vision to <b>value proposition</b></li>
     <li>spread the word in order to <b>acquire new users, clients</b></li>
     <li><b>build the brands</b> of Digital Natives, Nostromo.io</li>
-  </ol>
+  </ul>
 
   <h2>You don't have to be super experienced, but should have an idea and experience with the following activities:</h2>
   <ul>
@@ -42,5 +41,4 @@ meta_description: "We are looking for enthusiastic Digital Marketer in Hungary. 
   <p>Very excited to meet anyone who is interested in jumping on board - lets get coffee or tea to chat!</p>
 </div>
 
-{% include sharing_links.html align="left" %}
 {% include hello_hired.html param=page.hello_hired %}

@@ -17,6 +17,10 @@ a:hover {
   color: #000;
   text-decoration: underline;
 }
+a:focus {
+  color: #000;
+}
+
 .header a {
   margin-top: 20px;
 }
@@ -28,7 +32,7 @@ a:hover {
   transition: background .3s ease-out, color .3s ease-out;
 }
 .media:hover {
-  background: rgba(162, 109, 48, 0.3);
+  background: rgba(23, 155, 166, 0.3);
 }
 .media:hover a {
   text-decoration: none;
@@ -49,8 +53,6 @@ a:hover {
   width: 80px;
 }
 
-
-/*---------*/
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -86,41 +88,54 @@ a:hover {
   border-bottom: 1px solid #e5e5e5;
   background: #fff;
 }
+
+.jumbotron h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.jumbotron p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.jumbotron p img {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.jumbotron p:first-child {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.jumbotron p:last-child {
+  font-size: 16px;
+  text-align: center;
+}
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  color: #000;
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid #18bc9c;
+  transition: background .3s ease-out, color .3s ease-out;
+}
+.jumbotron .media-body p {
+  text-align: left;
+}
+
+.btn:hover {
+  background: #18bc9c;
+  color: #fff;
 }
 
 .listi-inline > li {
   padding-left: 10px;
   padding-right: 10px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  .jumbotron h1, .jumbotron .h1 {
-    font-size: 40px;
-  }
-}
-
-.jumbotron p {
-  font-size: 15px;
-}
-.jumbotron p img {
-  margin-right: 10px;
 }
 
 h2, .h2 {
@@ -151,6 +166,36 @@ h2, .h2 {
   font-size: 20px;
 }
 
+.text-left h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.text-left h2:first-child {
+  margin-bottom: 50px;
+}
+.text-left ul,
+.text-left ol {
+  margin-bottom: 30px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+}
+
 /*responsive - phone*/
 @media screen and (max-width: 768px) {
   .container,
@@ -162,5 +207,17 @@ h2, .h2 {
   }
   .media-right {
     padding-top: 15px;
+  }
+  .jumbotron .btn {
+    background: #18bc9c;
+    border-radius: 0;
+    color: #fff;
+    width: 100%;
+  }
+  .text-left {
+    padding: 0 20px;
+  }
+  .media:hover {
+    background: #fff;
   }
 }

@@ -9,9 +9,9 @@ meta_description: "We are planning to strengthen our professional team with enth
 {% include post_header.html %}
 
 <div class="text-left">
-  <p>
-  We are planning to strengthen our professional team with enthusiastic and experienced UX designers in Hungary.
-  </p>
+  <h2>
+    We are planning to strengthen our professional team with enthusiastic and experienced UX designers in Hungary.
+  </h2>
 
   <h2>The mission of the job</h2>
   <ul>

@@ -9,7 +9,9 @@ meta_description: "We are looking for enthusiastic and experienced Technology Pr
 {% include post_header.html %}
 
 <div class="text-left">
-  <p>We are planning to strengthen our <b>professional team</b> with enthusiastic and experienced Project Manager in Hungary.</p>
+  <h2>
+    We are planning to strengthen our <strong>professional team</strong> with enthusiastic and experienced Project Manager in Hungary.
+  </h2>
 
   <h2>The ideal new team member will have two major roles:</h2>
   <ol>
