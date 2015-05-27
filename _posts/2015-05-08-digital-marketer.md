@@ -1,6 +1,7 @@
 ---
 title: "Digital Marketer"
 logo: marketing_logo.png
+fb_logo: marketing_logo_facebook.png
 hello_hired: 338
 meta_description: "We are looking for enthusiastic Digital Marketer in Hungary. Experienced senior and talented junior professionals are also welcome."
 ---
@@ -25,7 +26,7 @@ meta_description: "We are looking for enthusiastic Digital Marketer in Hungary. 
     <li>spread the word in order to <b>acquire new users, clients</b></li>
     <li><b>build the brands</b> of Digital Natives, Nostromo.io</li>
   </ol>
-    
+
   <h2>You don't have to be super experienced, but should have an idea and experience with the following activities:</h2>
   <ul>
     <li><b>paid ad channels:</b> manage campaigns on Facebook, Linkedin, Twitter, Adwords etc...</li>

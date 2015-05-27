@@ -1,6 +1,7 @@
 ---
 title: "Technology Project Manager"
 logo: project_management_logo.png
+fb_logo: project_management_logo_facebook.png
 hello_hired: 359
 meta_description: "We are looking for enthusiastic and experienced Technology Project Manager in Hungary."
 ---

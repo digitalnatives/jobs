@@ -1,6 +1,7 @@
 ---
 title: "Frontend Developer"
 logo: frontend_logo.png
+fb_logo: frontend_logo_facebook.png
 hello_hired: 231
 meta_description: "We are looking for enthusiastic Frontend developers in Hungary. Experienced senior and talented junior professionals are also welcome."
 ---

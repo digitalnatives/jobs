@@ -1,6 +1,7 @@
 ---
 title: "Ruby Developer"
 logo: ruby_logo.png
+fb_logo: ruby_logo_facebook.png
 hello_hired: 230
 meta_description: "We are looking for enthusiastic Ruby developers in Hungary. Experienced senior and talented junior professionals are also welcome."
 ---
