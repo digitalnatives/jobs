@@ -1,6 +1,7 @@
 ---
 title: "UX Designer"
 logo: ux_logo.png
+fb_logo: ux_logo_fb.png
 hello_hired: 382
 meta_description: "We are planning to strengthen our professional team with enthusiastic and experienced UX designers in Hungary."
 ---
@@ -47,5 +48,4 @@ meta_description: "We are planning to strengthen our professional team with enth
   <p>Very excited to meet anyone who is interested in jumping on board - lets get coffee or tea to chat!</p>
 </div>
 
-{% include sharing_links.html align="left" %}
 {% include hello_hired.html param=page.hello_hired %}
