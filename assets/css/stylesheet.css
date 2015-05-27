@@ -179,6 +179,14 @@ h2, .h2 {
   margin-bottom: 30px;
 }
 
+.content404 h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.content404 img {
+  padding-bottom: 10px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
