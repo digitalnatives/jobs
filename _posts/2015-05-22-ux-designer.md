@@ -1,7 +1,7 @@
 ---
 title: "UX Designer"
 logo: ux_logo.png
-fb_logo: ux_logo_fb.png
+fb_logo: ux_logo_facebook.png
 hello_hired: 382
 meta_description: "We are planning to strengthen our professional team with enthusiastic and experienced UX designers in Hungary."
 ---
