@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    {% include meta.html %}
+    <title>
+      {% if page.title %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
+    {% include ga.html %}
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- <div class="header">
+        <a href="{{ site.homepage }}"><img src="/assets/images/{{ site.author.logo }}" alt="{{ site.author.name }} logo"/></a>
+        <h1><a href="{{ site.homepage }}">{{ site.author.name }}</a></h1>
+        <p class="lead">We. Are. Hiring.</p>
+      </div> -->
+
+      <div class="jumbotron">
+        {{ content }}
+      </div>
+
+      <footer class="footer">
+        <p class="text-center">
+          &copy;
+          <a href="{{ site.homepage }}">{{ site.author.name }}</a>
+          2015
+        </p>
+      </footer>
+    </div> <!-- /container -->
+  </body>
+</html>
