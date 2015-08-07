@@ -92,7 +92,7 @@ a:focus {
 .jumbotron h1 {
   font-size: 40px;
   margin-bottom: 30px;
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .jumbotron p {
